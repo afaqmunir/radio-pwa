@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg,#004d00,#009933);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    background: #003300;
+}
+
+.container {
+    padding: 15px;
+}
+
+.station {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.station button {
+    background: white;
+    color: green;
+}
+
+.stop-btn {
+    background: red;
+    color: white;
+    margin-top: 10px;
+}
+
+.player-section {
+    text-align: center;
+    padding: 15px;
+}
